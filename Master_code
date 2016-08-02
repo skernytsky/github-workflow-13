@@ -1,0 +1,17 @@
+#A: SPK 
+#D: 2016-08-02
+#P: This is a master code. It runs the steps in the analysis.
+
+# Data cleaning. This checks for <0 values and >1 values. It also renames things 
+do 1_data_cleaning
+
+
+# Model fitting. This fits all 9 models 
+do 2_estimate_models 
+
+
+# Forecast. This produces forecasts. 
+do 3_forecast 
+
+
+
